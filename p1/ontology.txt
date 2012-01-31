@@ -1,0 +1,17 @@
+TOP
+	OBJECT
+		PHYSICAL-OBJECT
+		NONPHYSICAL-OBJECT
+	EVENT
+	QUALITY
+	STATE
+	STATE-CHANGE
+	SPEECHACT
+	TIME
+		current
+		past
+		future
+	FORM
+		singular
+		plural 
+	RELATION
