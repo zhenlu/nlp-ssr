@@ -6,13 +6,15 @@
 #  for random sentence generator 
 # 
 
+require "token"
+
 class Rule
   def initialize
     # read the lexicon
     @dict = Hash.new
     File.open("data/lexicon.dat") do |f|
       while line = f.gets
-        line = line.split(':')
+        line = line.strip.split(':')
         dict = line[1].split(',')
         @dict[line[0]] = dict
       end
@@ -21,7 +23,7 @@ class Rule
     @grammar = Hash.new
     File.open("data/grammar.dat") do |f|
       while line = f.gets
-        line = line.split(':')
+        line = line.strip.split(':')
         grammar = line[1].split('|')
         @grammar[line[0]] = grammar
       end
@@ -32,15 +34,14 @@ class Rule
     if token.class == GrammarToken
       resultlist = @grammar[token.token]
       grammar = resultlist[rand(resultlist.size)].split
-      grammar.reverse
       result = []
-      grammar.each do |i|
-        result.push(create_token i)
-      end
+      grammar.each { |i| result.push(create_token i) }
       result
     else
       wordlist = @dict[token.token]
-      result = WordToken.new wordlist[rand(wordlist.size)]
+      result = []
+      result.push WordToken.new wordlist[rand(wordlist.size)]
+      result
     end
   end
   
