@@ -1,8 +1,8 @@
-noun:cat,tree,apple,computer,hamburger,dog,game
-pronoun:we,I,you,they,he,she,it
-verb:run,eat,sleep,cook,mix,dance,sing,push,pull,fix,drink
-preposition:in,on,at,onto,above,until,below,with
-adjective:blue,green,red,big,small,easy,hard,short,tall,high
-determiner:the,that,this,a,some,many,any,every,few,much
-auxiliary:can,shall,have,be,do,must,would,will
-complementizer:that,if,whether
+N:cat,tree,apple,computer,hamburger,dog,game
+PN:we,I,you,they,he,she,it
+V:run,eat,sleep,cook,mix,dance,sing,push,pull,fix,drink
+P:in,on,at,onto,above,until,below,with
+ADJ:blue,green,red,big,small,easy,hard,short,tall,high
+DET:the,that,this,a,some,many,any,every,few,much
+AUX:can,shall,have,be,do,must,would,will
+COM:that,if,whether
