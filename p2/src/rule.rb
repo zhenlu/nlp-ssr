@@ -31,6 +31,7 @@ class Rule
   end
   
   def expand(token)
+    puts "Expanding: "+token.token
     if token.class == GrammarToken
       resultlist = @grammar[token.token]
       grammar = resultlist[rand(resultlist.size)].split
