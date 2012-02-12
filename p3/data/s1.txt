@@ -1,0 +1,33 @@
+type1:know;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:complement;
+		agent:(
+	 	type1:nothing;
+		form:singular;
+		);
+		patient:(
+		type1:hamburger;
+		form:singular;
+		identifiable:false;
+		);
+		like:(
+		type1:french-fry;
+		form:plural;
+		identifiable:false;
+		state:hot;
+		taste:good;
+		);
+		speechact:ASSERTION;
+		time:current;
+		polarity:POS;		
+);
+time:current;
+speechact:ASSERTION;
+location:(
+	type1:In-N-Out;
+	form:none;
+);
+polarity:POS;

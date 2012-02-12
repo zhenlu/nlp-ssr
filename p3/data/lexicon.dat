@@ -1,0 +1,51 @@
+N,man,singlar->man
+N,freezer,singular->freezer
+N,potato,plural->potatoes
+N,potato,singular->potato
+N,store,plural->stores
+N,store,singular->store
+N,fresh,none->fresh
+N,hamburger,singular->hamburger
+N,In-N-Out,none->In-N-Out
+N,vegetable oil,none->vegetable oil
+N,french-fry,plural->french-fries
+N,french-fry,singular->french-fry
+V,use,current,plural->use;utilize
+V,prepare,current,plural->prepare
+V,take,current,plural->take;use
+V,cook,current,plural->cook;make
+V,deliver,current,plural->deliver;give
+V,think,current,plural->think;feel
+V,state,current,none->is
+V,state,current,singular->is
+V,complement,current,singular->complements
+V,know,current,plural->know
+AUX,*,NEG,current->do not
+DET,false,singular->a
+DET,true,singular->the
+DET,true,plural->the
+DET,true,we,plural->our
+DET,true,we,singular->our
+PN,we,plural->we
+PN,them,plural->them
+PN,nothing,singular->nothing
+ADV,individually->individually;one by one
+ADJ,big->big;large;huge
+ADJ,fresh->fresh
+ADJ,new->new;fresh
+ADJ,whole->whole
+ADJ,good->good;nice
+ADJ,tran-fat-free->tran-fat-free
+ADJ,good,10->the best
+ADJ,hot->hot
+ADJ,taste,good->tasty;delicious
+ADV,every day->every day;each day
+ADV,fresh->fresh
+ADV,only->only;just
+P,in->in
+P,to->to
+P,as->as
+P,like->like
+P,at->at
+P,about->about;regarding
+C,ASSERTION->that

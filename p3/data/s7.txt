@@ -1,0 +1,13 @@
+type1:prepare;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:potato;
+		form:plural;
+		identifiable:true;
+		 );
+time:current;
+speechact:ASSERTION;
+adv:individually;
+polarity:POS;
