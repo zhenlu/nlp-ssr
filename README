@@ -11,7 +11,6 @@ Part 2
 	- p2/data contains lexicon and grammar
 	- p2/result contains the result
 		- p2/result/process1.txt and process2.txt are the process steps for each sentences
-		// todo
 	- You can run part 2 code in p2 directory using "rake" command
 
 Part 3
@@ -34,4 +33,26 @@ Part 4
 	- You can run part 4 code in p4 directory using "rake" command
 		
 Discussion:
-	
+	- Lexicon
+		I use a map in lexicon, for example I use V,type,time,form to represent a verb. 
+		So a verb eat can be
+		V,eat,current,singular -> eats
+		V,eat,current,plural -> eat
+		V,eat,past,singular -> ate
+		V,eat,past,plural -> ate
+		V,eat,future,singular -> will eat
+		V,eat,future,plural -> will eat
+		
+		So it can fix the tence and form problem.
+		
+	- Negative sentance
+		I use AUX to represent negative sentence, I have a record in lexicon
+		AUX,*,NEG,current->do not
+		So it can handle negative sentences.
+		
+	- Backtracking
+		In part 3, I have a backtracking algorithm and each time a sentence is produced, 
+		I check if it covers all element in the representation. If so, I put the sentence 
+		in the answer list and continue searching.
+		
+	- I also can handle simple question sentence. See input file s14.txt.

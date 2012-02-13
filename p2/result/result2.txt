@@ -1,0 +1,15 @@
+(in /Users/nerwa/git/nlp-ssr/p2)
+Expanding: S
+Result: NP
+Result: VP
+Expanding: NP
+Result: DET
+Result: N1
+Expanding: DET
+Expanding: N1
+Result: N
+Expanding: N
+Expanding: VP
+Result: V
+Expanding: V
+the cat eat

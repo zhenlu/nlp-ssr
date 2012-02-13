@@ -23,8 +23,11 @@ V,state,past,singular->was
 V,complement,current,singular->complements
 V,know,current,plural->know
 V,have,past,singular->had
+V,have,current,singular->has
+V,have,current,plural->have
 V,die,past,singular->died
 AUX,*,NEG,current->do not
+AUX,*,POS,QUESTION,current->do
 DET,false,singular->a
 DET,true,singular->the
 DET,true,plural->the
@@ -35,6 +38,7 @@ PN,them,plural->them
 PN,nothing,singular->nothing
 PN,I,singular->I
 PN,it,singular->it
+PN,you,plural->you
 ADV,individually->individually;one by one
 ADJ,big->big;large;huge
 ADJ,fresh->fresh

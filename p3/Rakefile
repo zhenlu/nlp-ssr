@@ -1,7 +1,23 @@
-task :default => [:test10]
+task :default => [:test1,:test2,:test3,:test4,:test5,:test6,:test7,:test8,:test9,:test10,:test11,:test12,:test13,:test14]
 
 task :test10 do
+  ruby "-I src src/driver.rb data/s10.txt"
+end
+
+task :test11 do
+  ruby "-I src src/driver.rb data/s11.txt"
+end
+
+task :test12 do
+  ruby "-I src src/driver.rb data/s12.txt"
+end
+
+task :test13 do
   ruby "-I src src/driver.rb data/s13.txt"
+end
+
+task :test14 do
+  ruby "-I src src/driver.rb data/s14.txt"
 end
 
 

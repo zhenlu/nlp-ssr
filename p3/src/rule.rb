@@ -82,8 +82,10 @@ class Rule
   end
   
   def S(arg)
-    if arg.speechact != nil
+    if arg.speechact == "ASSERTION"
       [["NP(@arg.agent)","VP(@arg)"]]
+    elsif arg.speechact == "QUESTION"
+      [["AUX(@arg.type,@arg.polarity,@arg.speechact,@arg.time)","NP(@arg.agent)","VP(@arg)"]]
     else
       []
     end

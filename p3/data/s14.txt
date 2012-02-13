@@ -1,0 +1,12 @@
+type1:have;
+agent:(
+ 	type1:you;
+	form:plural;
+);	
+patient:(type1:cat;
+		form:singular;
+		identifiable:false;
+		 );
+time:current;
+speechact:QUESTION;
+polarity:POS;

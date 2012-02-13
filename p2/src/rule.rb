@@ -36,7 +36,10 @@ class Rule
       resultlist = @grammar[token.token]
       grammar = resultlist[rand(resultlist.size)].split
       result = []
-      grammar.each { |i| result.push(create_token i) }
+      grammar.each do |i| 
+        puts "Result: #{i}"
+        result.push(create_token i) 
+      end
       result
     else
       wordlist = @dict[token.token]
