@@ -1,0 +1,13 @@
+type1:have;
+agent:(
+ 	type1:I;
+	form:singular;
+);	
+patient:(type1:cat;
+		form:singular;
+		identifiable:false;
+		 );
+time:past;
+speechact:ASSERTION;
+adv:once;
+polarity:POS;

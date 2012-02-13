@@ -1,0 +1,51 @@
+Expanding details E1
+Result: realize E1  details E2
+Expanding realize E1
+Result: realize a sentence
+we know that nothing complements a hamburger like hot tasty french-fries at In-N-Out
+Expanding  
+Expanding details E2
+Result: realize E2  cause E3
+Expanding realize E2
+Result: realize a sentence
+we think that fresh is the best about french-fries
+Expanding  
+Expanding cause E3
+Result: realize E3 so oppose E4
+Expanding realize E3
+Result: realize a sentence
+a french-fry is only as good as the potato
+Expanding so 
+Expanding oppose E4
+Result: cause E4 however realize E9
+Expanding cause E4
+Result: realize E4 therefore next_one E5
+Expanding realize E4
+Result: realize a sentence
+we use fresh big potatoes
+Expanding therefore 
+Expanding next_one E5
+Result: realize E5 after that next_one E6
+Expanding realize E5
+Result: realize a sentence
+we deliver them fresh to our stores
+Expanding after that 
+Expanding next_one E6
+Result: realize E6 after that next_one E7
+Expanding realize E6
+Result: realize a sentence
+we take new whole potatoes every day
+Expanding after that 
+Expanding next_one E7
+Result: realize E7 then realize E8
+Expanding realize E7
+Result: realize a sentence
+we prepare the potatoes individually
+Expanding then 
+Expanding realize E8
+Result: realize a sentence
+we cook them in tran-fat-free vegetable oil
+Expanding however 
+Expanding realize E9
+Result: realize a sentence
+we do not use a freezer

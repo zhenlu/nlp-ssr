@@ -1,0 +1,7 @@
+oppose E10
+	details E10
+		realize E10
+		realize E11
+	cause E12
+		realize E12
+		realize E13

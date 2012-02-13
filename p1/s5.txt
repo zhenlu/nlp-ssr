@@ -1,0 +1,19 @@
+type1:deliver;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:them;
+		form:plural;
+		 );
+adv:fresh;
+destination:(
+	type1:store;
+	owner:we;
+	identifiable:true;
+	form:plural;
+);
+speechact:ASSERTION;
+adv:fresh;
+polarity:POS;
+time:current;

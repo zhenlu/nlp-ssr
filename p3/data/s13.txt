@@ -1,0 +1,10 @@
+type1:state;
+agent:(
+ 	type1:I;
+	form:singular;
+);	
+patient:(type1:sad;);
+time:past;
+speechact:ASSERTION;
+adv:very;
+polarity:POS;

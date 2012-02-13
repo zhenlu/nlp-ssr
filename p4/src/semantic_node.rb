@@ -34,10 +34,10 @@ class SemanticNode
         v = @visit[key]
       end
       unless v != false or \
-        ["speechact","size","state","color","shape","taste"].include? key or \
+        ["speechact","size","state","color","shape","taste","details","cause","next","oppose"].include? key or \
         (key == "polarity" and @hash[key] == "POS") or
         (key == "identifiable" and @hash[key] == "false")
-        # puts "#{key} is not mentioned, failed."
+        # puts key
         return false
       end
     end

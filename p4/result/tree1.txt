@@ -1,0 +1,11 @@
+oppose E4
+	cause E4
+		realize E4
+		next_one E5
+			realize E5
+			next_one E6
+				realize E6
+				next_one E7
+					realize E7
+					realize E8
+	realize E9

@@ -1,0 +1,599 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s6.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("take","current","plural")
+AUX("take","POS","current")
+Expanding AUX("take","POS","current")
+Grammar Result:
+NP(@arg)
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we take new whole potatoes
+Validate sentance....
+adv is not mentioned, failed.
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we take fresh whole potatoes
+Validate sentance....
+adv is not mentioned, failed.
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we use new whole potatoes
+Validate sentance....
+adv is not mentioned, failed.
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we use fresh whole potatoes
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+Grammar Result:
+ADV("every day")
+NP(@arg)
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Generating sentence: we take new whole potatoes every day
+Validate sentance....
+Validate success.
+result: each day
+Expanding each day
+Generating sentence: we take new whole potatoes each day
+Validate sentance....
+Validate success.
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Generating sentence: we take fresh whole potatoes every day
+Validate sentance....
+Validate success.
+result: each day
+Expanding each day
+Generating sentence: we take fresh whole potatoes each day
+Validate sentance....
+Validate success.
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Generating sentence: we use new whole potatoes every day
+Validate sentance....
+Validate success.
+result: each day
+Expanding each day
+Generating sentence: we use new whole potatoes each day
+Validate sentance....
+Validate success.
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Generating sentence: we use fresh whole potatoes every day
+Validate sentance....
+Validate success.
+result: each day
+Expanding each day
+Generating sentence: we use fresh whole potatoes each day
+Validate sentance....
+Validate success.
+Grammar Result:
+PPLIST(@arg)
+ADV("every day")
+NP(@arg)
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Expanding PPLIST(@arg)
+result: each day
+Expanding each day
+Expanding PPLIST(@arg)
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Expanding PPLIST(@arg)
+result: each day
+Expanding each day
+Expanding PPLIST(@arg)
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("whole")
+ADJ("new")
+Expanding ADJ("new")
+result: new
+Expanding new
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Expanding PPLIST(@arg)
+result: each day
+Expanding each day
+Expanding PPLIST(@arg)
+result: fresh
+Expanding fresh
+Expanding ADJ("whole")
+result: whole
+Expanding whole
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Expanding PPLIST(@arg)
+result: each day
+Expanding each day
+Expanding PPLIST(@arg)
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding C("")
+result: use
+Expanding use
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding C("")
+result: use
+Expanding use
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: use
+Expanding use
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("every day")
+V("take","current","plural")
+Expanding V("take","current","plural")
+result: take
+Expanding take
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: each day
+Expanding each day
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: use
+Expanding use
+Expanding ADV("every day")
+result: every day
+Expanding every day
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: each day
+Expanding each day
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we take new whole potatoes every day
+we take new whole potatoes each day
+we take fresh whole potatoes every day
+we take fresh whole potatoes each day
+we use new whole potatoes every day
+we use new whole potatoes each day
+we use fresh whole potatoes every day
+we use fresh whole potatoes each day

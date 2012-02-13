@@ -1,0 +1,16 @@
+type1:cook;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:them;
+		form:plural;
+		 );
+place:(
+	  type1:vegetable oil;
+	  state:tran-fat-free;
+	  form:none;
+);
+time:current;
+speechact:ASSERTION;
+polarity:POS;

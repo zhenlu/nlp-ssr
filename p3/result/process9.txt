@@ -1,0 +1,476 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s9.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("use","current","plural")
+AUX("use","NEG","current")
+Expanding AUX("use","NEG","current")
+result: do not
+Expanding do not
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we do not use a freezer
+Validate sentance....
+Validate success.
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we do not use freezer
+Validate sentance....
+Validate success.
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we do not utilize a freezer
+Validate sentance....
+Validate success.
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we do not utilize freezer
+Validate sentance....
+Validate success.
+Grammar Result:
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we use a freezer
+Validate sentance....
+polarity is not mentioned, failed.
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we use freezer
+Validate sentance....
+polarity is not mentioned, failed.
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we utilize a freezer
+Validate sentance....
+polarity is not mentioned, failed.
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Generating sentence: we utilize freezer
+Validate sentance....
+polarity is not mentioned, failed.
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding PPLIST(@arg)
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding PPLIST(@arg)
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding PPLIST(@arg)
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding PPLIST(@arg)
+Grammar Result:
+ADV("")
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("freezer","singular")
+Expanding PN("freezer","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("freezer","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("freezer","singular")
+result: freezer
+Expanding freezer
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding C("")
+result: utilize
+Expanding utilize
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding C("")
+result: utilize
+Expanding utilize
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("freezer","")
+Expanding ADJ("freezer","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: utilize
+Expanding utilize
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("freezer","")
+Expanding ADJ("freezer","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding ADV("")
+result: utilize
+Expanding utilize
+Expanding ADV("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we do not use a freezer
+we do not use freezer
+we do not utilize a freezer
+we do not utilize freezer

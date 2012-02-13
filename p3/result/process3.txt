@@ -1,0 +1,924 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s3.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","singular")
+Expanding PN("french-fry","singular")
+Grammar Result:
+N("french-fry","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("french-fry","singular")
+result: french-fry
+Expanding french-fry
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("state","current","singular")
+AUX("state","POS","current")
+Expanding AUX("state","POS","current")
+Grammar Result:
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+ADV("only")
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+PPLIST(@arg)
+ADV("only")
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("","")
+Expanding ADJ("","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("good")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("good")
+result: good
+Expanding good
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is as good as the potato
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is as good as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: nice
+Expanding nice
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is as nice as the potato
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is as nice as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+STATE(@arg)
+ADV("only")
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding ADV("only")
+result: only
+Expanding only
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("","")
+Expanding ADJ("","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("good")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("good")
+result: good
+Expanding good
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is only as good as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is only as good as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: nice
+Expanding nice
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is only as nice as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is only as nice as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: just
+Expanding just
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("","")
+Expanding ADJ("","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("good")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("good")
+result: good
+Expanding good
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is just as good as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is just as good as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: nice
+Expanding nice
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is just as nice as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: a french-fry is just as nice as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+N("french-fry","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("french-fry","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("french-fry","singular")
+result: french-fry
+Expanding french-fry
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("state","current","singular")
+AUX("state","POS","current")
+Expanding AUX("state","POS","current")
+Grammar Result:
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+ADV("only")
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+PPLIST(@arg)
+ADV("only")
+NP(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("","")
+Expanding PN("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("","")
+Expanding ADJ("","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("good")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("good")
+result: good
+Expanding good
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is as good as the potato
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is as good as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: nice
+Expanding nice
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is as nice as the potato
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is as nice as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+STATE(@arg)
+ADV("only")
+V("state","current","singular")
+Expanding V("state","current","singular")
+result: is
+Expanding is
+Expanding ADV("only")
+result: only
+Expanding only
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("","")
+Expanding ADJ("","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("good")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("good")
+result: good
+Expanding good
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is only as good as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is only as good as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: nice
+Expanding nice
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is only as nice as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is only as nice as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: just
+Expanding just
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("","")
+Expanding ADJ("","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("good")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("good")
+result: good
+Expanding good
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is just as good as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is just as good as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+result: nice
+Expanding nice
+Expanding P("as")
+result: as
+Expanding as
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","singular")
+Expanding PN("potato","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","singular")
+Expanding DET("true","singular")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is just as nice as the potato
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+DET("true","","singular")
+Expanding DET("true","","singular")
+Grammar Result:
+N("potato","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","singular")
+result: potato
+Expanding potato
+Generating sentence: french-fry is just as nice as potato
+Validate sentance....
+identifiable is not mentioned, failed.
+obj is not mentioned, failed.
+patient is not mentioned, failed.
+Final result:
+a french-fry is only as good as the potato
+a french-fry is only as nice as the potato
+a french-fry is just as good as the potato
+a french-fry is just as nice as the potato
+french-fry is only as good as the potato
+french-fry is only as nice as the potato
+french-fry is just as good as the potato
+french-fry is just as nice as the potato

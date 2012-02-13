@@ -1,0 +1,7 @@
+(in /Users/nerwa/git/nlp-ssr/p4)
+data/story1.txt
+we use fresh big potatoes. so we deliver them fresh to our stores. next we take new whole potatoes every day. after that we prepare the potatoes individually. then we cook them in tran-fat-free vegetable oil. however we do not use a freezer. 
+data/story1.txt
+we know that nothing complements a hamburger like hot tasty french-fries at In-N-Out. we think that fresh is the best about french-fries. a french-fry is only as good as the potato. so we use fresh big potatoes. therefore we deliver them fresh to our stores. after that we take new whole potatoes every day. after that we prepare the potatoes individually. then we cook them in tran-fat-free vegetable oil. however we do not use a freezer. 
+data/story2.txt
+I had a cat once. it was very cute. however it died one day. therefore I was very sad. 

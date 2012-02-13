@@ -1,0 +1,1181 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s2.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("think","current","plural")
+AUX("think","POS","current")
+Expanding AUX("think","POS","current")
+Grammar Result:
+NP(@arg)
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+result: feel
+Expanding feel
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+result: feel
+Expanding feel
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+result: feel
+Expanding feel
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+result: feel
+Expanding feel
+Expanding NP(@arg)
+Grammar Result:
+PN("state","")
+Expanding PN("state","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("state","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("state","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("ASSERTION")
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding C("ASSERTION")
+result: that
+Expanding that
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("fresh","none")
+Expanding PN("fresh","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","none")
+Expanding DET("false","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","","none")
+Expanding DET("false","","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("fresh","none")
+result: fresh
+Expanding fresh
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+AUX("state","POS","current")
+Expanding AUX("state","POS","current")
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("good","10")
+Expanding ADJ("good","10")
+result: the best
+Expanding the best
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("about")
+Expanding P("about")
+result: about
+Expanding about
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we think that fresh is the best about french-fries
+Validate sentance....
+Validate success.
+result: regarding
+Expanding regarding
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we think that fresh is the best regarding french-fries
+Validate sentance....
+Validate success.
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding ADV("")
+result: feel
+Expanding feel
+Expanding C("ASSERTION")
+result: that
+Expanding that
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("fresh","none")
+Expanding PN("fresh","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","none")
+Expanding DET("false","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","","none")
+Expanding DET("false","","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("fresh","none")
+result: fresh
+Expanding fresh
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+AUX("state","POS","current")
+Expanding AUX("state","POS","current")
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("good","10")
+Expanding ADJ("good","10")
+result: the best
+Expanding the best
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("about")
+Expanding P("about")
+result: about
+Expanding about
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we feel that fresh is the best about french-fries
+Validate sentance....
+Validate success.
+result: regarding
+Expanding regarding
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we feel that fresh is the best regarding french-fries
+Validate sentance....
+Validate success.
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding ADV("")
+Grammar Result:
+S(@arg)
+C("ASSERTION")
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding C("ASSERTION")
+result: that
+Expanding that
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("fresh","none")
+Expanding PN("fresh","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","none")
+Expanding DET("false","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","","none")
+Expanding DET("false","","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("fresh","none")
+result: fresh
+Expanding fresh
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+AUX("state","POS","current")
+Expanding AUX("state","POS","current")
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("good","10")
+Expanding ADJ("good","10")
+result: the best
+Expanding the best
+Generating sentence: we think that fresh is the best
+Validate sentance....
+type1 is not mentioned, failed.
+about is not mentioned, failed.
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding ADV("")
+result: feel
+Expanding feel
+Expanding C("ASSERTION")
+result: that
+Expanding that
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("fresh","none")
+Expanding PN("fresh","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","none")
+Expanding DET("false","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+DET("false","","none")
+Expanding DET("false","","none")
+Grammar Result:
+N("fresh","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("fresh","none")
+result: fresh
+Expanding fresh
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+AUX("state","POS","current")
+Expanding AUX("state","POS","current")
+Grammar Result:
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding NP(@arg)
+Grammar Result:
+PN("good","")
+Expanding PN("good","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("good","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("good","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("good","10")
+Expanding ADJ("good","10")
+result: the best
+Expanding the best
+Generating sentence: we feel that fresh is the best
+Validate sentance....
+type1 is not mentioned, failed.
+about is not mentioned, failed.
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("state","current","none")
+Expanding V("state","current","none")
+result: is
+Expanding is
+Expanding ADV("")
+Grammar Result:
+STATE(@arg)
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("state","")
+Expanding ADJ("state","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: feel
+Expanding feel
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("state","")
+Expanding ADJ("state","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("think","current","plural")
+Expanding V("think","current","plural")
+result: think
+Expanding think
+Expanding ADV("")
+result: feel
+Expanding feel
+Expanding ADV("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we think that fresh is the best about french-fries
+we think that fresh is the best regarding french-fries
+we feel that fresh is the best about french-fries
+we feel that fresh is the best regarding french-fries

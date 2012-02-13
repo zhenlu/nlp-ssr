@@ -1,0 +1,13 @@
+type1:use;
+ agent:(
+ 	type1:we;
+	form:plural;
+ );	
+ patient:(
+	type1:freezer;
+	identifiable:false;
+	form:singular;
+ );
+ time:current;
+ speechact:ASSERTION;
+ polarity:NEG;

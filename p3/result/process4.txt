@@ -1,0 +1,501 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s4.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("use","current","plural")
+AUX("use","POS","current")
+Expanding AUX("use","POS","current")
+Grammar Result:
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we use fresh big potatoes
+Validate sentance....
+Validate success.
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we use fresh large potatoes
+Validate sentance....
+Validate success.
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we use fresh huge potatoes
+Validate sentance....
+Validate success.
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we utilize fresh big potatoes
+Validate sentance....
+Validate success.
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we utilize fresh large potatoes
+Validate sentance....
+Validate success.
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we utilize fresh huge potatoes
+Validate sentance....
+Validate success.
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+Grammar Result:
+ADV("")
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: utilize
+Expanding utilize
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("big")
+ADJ("fresh")
+Expanding ADJ("fresh")
+result: fresh
+Expanding fresh
+Expanding ADJ("big")
+result: big
+Expanding big
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: large
+Expanding large
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+result: huge
+Expanding huge
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding C("")
+result: utilize
+Expanding utilize
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding C("")
+result: utilize
+Expanding utilize
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: utilize
+Expanding utilize
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("use","current","plural")
+Expanding V("use","current","plural")
+result: use
+Expanding use
+Expanding ADV("")
+result: utilize
+Expanding utilize
+Expanding ADV("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we use fresh big potatoes
+we use fresh large potatoes
+we use fresh huge potatoes
+we utilize fresh big potatoes
+we utilize fresh large potatoes
+we utilize fresh huge potatoes

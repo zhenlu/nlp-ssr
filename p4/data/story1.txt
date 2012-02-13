@@ -1,0 +1,190 @@
+E1:(
+type1:know;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:complement;
+		agent:(
+	 	type1:nothing;
+		form:singular;
+		);
+		patient:(
+		type1:hamburger;
+		form:singular;
+		identifiable:false;
+		);
+		like:(
+		type1:french-fry;
+		form:plural;
+		identifiable:false;
+		state:hot;
+		taste:good;
+		);
+		speechact:ASSERTION;
+		time:current;
+		polarity:POS;		
+);
+time:current;
+speechact:ASSERTION;
+location:(
+	type1:In-N-Out;
+	form:none;
+);
+polarity:POS;
+details:E2;
+);
+E2:(
+type1:think;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:state;
+		agent:(
+	 	type1:fresh;
+		form:none;
+		identifiable:false;
+		);
+		patient:(
+		type1:good;
+		degree:10;
+		);
+		speechact:ASSERTION;
+		time:current;
+		polarity:POS;		
+);
+time:current;
+speechact:ASSERTION;
+about:(
+	type1:french-fry;
+	form:plural;
+	identifiable:false;
+);
+polarity:POS;
+details:E3;
+);
+E3:(
+type1:state;
+agent:(
+	type1:french-fry;
+	form:singular;
+	identifiable:false;
+);	
+patient:(
+	sameas:good;
+	obj:(
+	type1:potato;
+	identifiable:true;
+	form:singular;
+	);
+);
+adv:only;
+time:current;
+speechact:ASSERTION;
+polarity:POS;
+cause:E4;
+);
+E4:(
+type1:use;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:potato;
+		form:plural;
+		size:big;
+		state:fresh;
+		identifiable:false;
+		 );
+time:current;
+speechact:ASSERTION;
+polarity:POS;
+cause:E5;
+oppose:E9;);
+E5:(
+type1:deliver;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:them;
+		form:plural;
+		 );
+adv:fresh;
+destination:(
+	type1:store;
+	owner:we;
+	identifiable:true;
+	form:plural;
+);
+speechact:ASSERTION;
+adv:fresh;
+polarity:POS;
+time:current;
+next_one:E6;);
+E6:(
+type1:take;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:potato;
+		form:plural;
+		state:new;
+		shape:whole;
+		identifiable:false;
+		 );
+time:current;
+speechact:ASSERTION;
+adv:every day;
+polarity:POS;
+next_one:E7;);
+E7:(
+type1:prepare;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:potato;
+		form:plural;
+		identifiable:true;
+		 );
+time:current;
+speechact:ASSERTION;
+adv:individually;
+polarity:POS;
+next_one:E8;);
+E8:(
+type1:cook;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:them;
+		form:plural;
+		 );
+place:(
+	  type1:vegetable oil;
+	  state:tran-fat-free;
+	  form:none;
+);
+time:current;
+speechact:ASSERTION;
+polarity:POS;
+);
+E9:(
+type1:use;
+ agent:(
+ 	type1:we;
+	form:plural;
+ );	
+ patient:(
+	type1:freezer;
+	identifiable:false;
+	form:singular;
+ );
+ time:current;
+ speechact:ASSERTION;
+ polarity:NEG;
+);

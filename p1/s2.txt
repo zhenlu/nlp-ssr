@@ -1,0 +1,27 @@
+type1:think;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:state;
+		agent:(
+	 	type1:fresh;
+		form:none;
+		identifiable:false;
+		);
+		patient:(
+		type1:good;
+		degree:10;
+		);
+		speechact:ASSERTION;
+		time:current;
+		polarity:POS;		
+);
+time:current;
+speechact:ASSERTION;
+about:(
+	type1:french-fry;
+	form:plural;
+	identifiable:false;
+);
+polarity:POS;

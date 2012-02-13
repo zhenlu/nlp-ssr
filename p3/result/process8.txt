@@ -1,0 +1,401 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s8.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("cook","current","plural")
+AUX("cook","POS","current")
+Expanding AUX("cook","POS","current")
+Grammar Result:
+NP(@arg)
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Generating sentence: we cook them
+Validate sentance....
+type1 is not mentioned, failed.
+place is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: make
+Expanding make
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Generating sentence: we make them
+Validate sentance....
+type1 is not mentioned, failed.
+place is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("in")
+Expanding P("in")
+result: in
+Expanding in
+Expanding NP(@arg)
+Grammar Result:
+PN("vegetable oil","none")
+Expanding PN("vegetable oil","none")
+Grammar Result:
+N("vegetable oil","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("vegetable oil","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("vegetable oil","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("tran-fat-free")
+Expanding ADJ("tran-fat-free")
+result: tran-fat-free
+Expanding tran-fat-free
+Expanding N("vegetable oil","none")
+result: vegetable oil
+Expanding vegetable oil
+Generating sentence: we cook them in tran-fat-free vegetable oil
+Validate sentance....
+Validate success.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: make
+Expanding make
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("in")
+Expanding P("in")
+result: in
+Expanding in
+Expanding NP(@arg)
+Grammar Result:
+PN("vegetable oil","none")
+Expanding PN("vegetable oil","none")
+Grammar Result:
+N("vegetable oil","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("vegetable oil","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("vegetable oil","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("tran-fat-free")
+Expanding ADJ("tran-fat-free")
+result: tran-fat-free
+Expanding tran-fat-free
+Expanding N("vegetable oil","none")
+result: vegetable oil
+Expanding vegetable oil
+Generating sentence: we make them in tran-fat-free vegetable oil
+Validate sentance....
+Validate success.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: make
+Expanding make
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: make
+Expanding make
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding C("")
+result: make
+Expanding make
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding C("")
+result: make
+Expanding make
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("them","")
+Expanding ADJ("them","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: make
+Expanding make
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("them","")
+Expanding ADJ("them","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("cook","current","plural")
+Expanding V("cook","current","plural")
+result: cook
+Expanding cook
+Expanding ADV("")
+result: make
+Expanding make
+Expanding ADV("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we cook them in tran-fat-free vegetable oil
+we make them in tran-fat-free vegetable oil

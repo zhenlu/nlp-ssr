@@ -1,0 +1,54 @@
+E10:(
+type1:have;
+agent:(
+ 	type1:I;
+	form:singular;
+);	
+patient:(type1:cat;
+		form:singular;
+		identifiable:false;
+		 );
+time:past;
+speechact:ASSERTION;
+adv:once;
+polarity:POS;
+details:E11;
+oppose:E12;
+);
+E11:(
+type1:state;
+agent:(
+ 	type1:it;
+	form:singular;
+);	
+patient:(type1:cute;);
+time:past;
+speechact:ASSERTION;
+adv:very;
+polarity:POS;
+);
+E12:(
+type1:die;
+agent:(
+ 	type1:it;
+	form:singular;
+);	
+patient:();
+time:past;
+speechact:ASSERTION;
+adv:one day;
+polarity:POS;
+cause:E13;
+);
+E13:(
+type1:state;
+agent:(
+ 	type1:I;
+	form:singular;
+);	
+patient:(type1:sad;);
+time:past;
+speechact:ASSERTION;
+adv:very;
+polarity:POS;
+);

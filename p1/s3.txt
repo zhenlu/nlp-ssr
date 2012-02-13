@@ -1,0 +1,18 @@
+type1:state;
+agent:(
+	type1:french-fry;
+	form:singular;
+	identifiable:false;
+);	
+patient:(
+	sameas:good;
+	obj:(
+	type1:potato;
+	identifiable:true;
+	form:singular;
+	);
+);
+adv:only;
+time:current;
+speechact:ASSERTION;
+polarity:POS;

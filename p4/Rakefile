@@ -1,0 +1,13 @@
+task :default => [:test1,:test2,:test3]
+
+task :test1 do
+  ruby "-I src src/driver.rb data/story1.txt result/process1.txt result/tree1.txt E4"
+end
+
+task :test2 do
+  ruby "-I src src/driver.rb data/story1.txt result/process2.txt result/tree2.txt E1"
+end
+
+task :test3 do
+  ruby "-I src src/driver.rb data/story2.txt result/process3.txt result/tree3.txt E10"
+end

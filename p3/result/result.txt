@@ -1,0 +1,59 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s1.txt
+Final result:
+we know that nothing complements a hamburger like hot tasty french-fries at In-N-Out
+we know that nothing complements a hamburger like hot delicious french-fries at In-N-Out
+we know that nothing complements hamburger like hot tasty french-fries at In-N-Out
+we know that nothing complements hamburger like hot delicious french-fries at In-N-Out
+data/s2.txt
+Final result:
+we think that fresh is the best about french-fries
+we think that fresh is the best regarding french-fries
+we feel that fresh is the best about french-fries
+we feel that fresh is the best regarding french-fries
+data/s3.txt
+Final result:
+a french-fry is only as good as the potato
+a french-fry is only as nice as the potato
+a french-fry is just as good as the potato
+a french-fry is just as nice as the potato
+french-fry is only as good as the potato
+french-fry is only as nice as the potato
+french-fry is just as good as the potato
+french-fry is just as nice as the potato
+data/s4.txt
+Final result:
+we use fresh big potatoes
+we use fresh large potatoes
+we use fresh huge potatoes
+we utilize fresh big potatoes
+we utilize fresh large potatoes
+we utilize fresh huge potatoes
+data/s5.txt
+Final result:
+we deliver them fresh to our stores
+we give them fresh to our stores
+data/s6.txt
+Final result:
+we take new whole potatoes every day
+we take new whole potatoes each day
+we take fresh whole potatoes every day
+we take fresh whole potatoes each day
+we use new whole potatoes every day
+we use new whole potatoes each day
+we use fresh whole potatoes every day
+we use fresh whole potatoes each day
+data/s7.txt
+Final result:
+we prepare the potatoes individually
+we prepare the potatoes one by one
+data/s8.txt
+Final result:
+we cook them in tran-fat-free vegetable oil
+we make them in tran-fat-free vegetable oil
+data/s9.txt
+Final result:
+we do not use a freezer
+we do not use freezer
+we do not utilize a freezer
+we do not utilize freezer

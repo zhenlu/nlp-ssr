@@ -1,0 +1,21 @@
+Expanding oppose E10
+Result: details E10 however cause E12
+Expanding details E10
+Result: realize E10  realize E11
+Expanding realize E10
+Result: realize a sentence
+I had a cat once
+Expanding  
+Expanding realize E11
+Result: realize a sentence
+it was very cute
+Expanding however 
+Expanding cause E12
+Result: realize E12 therefore realize E13
+Expanding realize E12
+Result: realize a sentence
+it died one day
+Expanding therefore 
+Expanding realize E13
+Result: realize a sentence
+I was very sad

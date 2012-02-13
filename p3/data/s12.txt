@@ -1,0 +1,10 @@
+type1:die;
+agent:(
+ 	type1:it;
+	form:singular;
+);	
+patient:();
+time:past;
+speechact:ASSERTION;
+adv:one day;
+polarity:POS;

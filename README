@@ -1,0 +1,37 @@
+This assignment is developed in Ruby.
+Ruby and rake are needed to run all the programs.
+No other libs are used.
+
+Part 1
+	- p1/ontology.txt is the ontology defination
+	- p1/s1.txt~s9.txt are the representation of 9 sentences
+
+Part 2
+	- p2/src is the generator code
+	- p2/data contains lexicon and grammar
+	- p2/result contains the result
+		- p2/result/process1.txt and process2.txt are the process steps for each sentences
+		// todo
+	- You can run part 2 code in p2 directory using "rake" command
+
+Part 3
+	- p3/src is the realizier code
+	- p3/data contains all the input files, lexicon and grammar
+	- p3/result contains the result
+		- p3/result/process1.txt~process9.txt are the process steps for each sentences
+		- p3/result/result.txt is the output of the 10 sentances
+	- You can run part 3 code in p3 directory using "rake" command
+	
+Part 4
+	- 4.1 is in p4/relation.eps
+	- 4.2 is in p4/data/plan.dat
+	- 4.3 is in p4/src
+	- 4.4 is in p4/result
+		- p4/result/process1, tree1 show the process and tree starting E4 in story 1
+		- p4/result/process2, tree2 show the process and tree starting E1 in story 1
+		- p4/result/process3, tree3 show the process and tree starting E10 in story 2
+		- p4/result/result.txt
+	- You can run part 4 code in p4 directory using "rake" command
+		
+Discussion:
+	

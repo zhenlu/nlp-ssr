@@ -1,0 +1,300 @@
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("prepare","current","plural")
+AUX("prepare","POS","current")
+Expanding AUX("prepare","POS","current")
+Grammar Result:
+NP(@arg)
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we prepare the potatoes
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","","plural")
+Expanding DET("true","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Generating sentence: we prepare potatoes
+Validate sentance....
+identifiable is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","","plural")
+Expanding DET("true","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding PPLIST(@arg)
+Grammar Result:
+ADV("individually")
+NP(@arg)
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("individually")
+result: individually
+Expanding individually
+Generating sentence: we prepare the potatoes individually
+Validate sentance....
+Validate success.
+result: one by one
+Expanding one by one
+Generating sentence: we prepare the potatoes one by one
+Validate sentance....
+Validate success.
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","","plural")
+Expanding DET("true","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("individually")
+result: individually
+Expanding individually
+Generating sentence: we prepare potatoes individually
+Validate sentance....
+identifiable is not mentioned, failed.
+patient is not mentioned, failed.
+result: one by one
+Expanding one by one
+Generating sentence: we prepare potatoes one by one
+Validate sentance....
+identifiable is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+PPLIST(@arg)
+ADV("individually")
+NP(@arg)
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding NP(@arg)
+Grammar Result:
+PN("potato","plural")
+Expanding PN("potato","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("individually")
+result: individually
+Expanding individually
+Expanding PPLIST(@arg)
+result: one by one
+Expanding one by one
+Expanding PPLIST(@arg)
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+DET("true","","plural")
+Expanding DET("true","","plural")
+Grammar Result:
+N("potato","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("potato","plural")
+result: potatoes
+Expanding potatoes
+Expanding ADV("individually")
+result: individually
+Expanding individually
+Expanding PPLIST(@arg)
+result: one by one
+Expanding one by one
+Expanding PPLIST(@arg)
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("individually")
+V("prepare","current","plural")
+Expanding V("prepare","current","plural")
+result: prepare
+Expanding prepare
+Expanding ADV("individually")
+result: individually
+Expanding individually
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: one by one
+Expanding one by one
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("potato","")
+Expanding ADJ("potato","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we prepare the potatoes individually
+we prepare the potatoes one by one

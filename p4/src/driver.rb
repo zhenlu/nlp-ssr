@@ -7,16 +7,12 @@ def dfs(stack, current, result, arg)
   # stack.each { |e| print e.token }
   # puts
   if stack.empty?
-    # puts "Generating sentence: " + current.join(" ")
-    # puts "Validate sentance...."
     # puts current.join " "
     if arg.validate
-      # puts "Validate success."
       result.push current.clone
     end
   else
     tok = stack.pop
-    # puts "Expanding #{tok.token}"
     if tok.class == WordToken
       current.push tok.token
       dfs(stack, current, result, arg)
@@ -26,7 +22,6 @@ def dfs(stack, current, result, arg)
       if token != nil
         token.each do |e|
           stack.push e
-          # puts "result: "+e.token
           dfs(stack, current, result, arg)
           stack.pop
         end
@@ -35,10 +30,8 @@ def dfs(stack, current, result, arg)
       lists = tok.expand
       lists.each do |list|
         old_arg = Hash.new
-        # puts "Grammar Result:"
         list.reverse.each do |e|  
           # backtracking
-          # puts e.token
           stack.push e
           tok.visit[e].split("(")[1].split(")")[0].split(",").each do |e|  
             key = e.split(".")[1]
@@ -68,7 +61,7 @@ def realize(arg)
   result = []
   stack.push GrammarToken.new("S(@arg)", arg)
   dfs(stack, [], result, arg)
-  result
+  result[0]
 end
 
 def construct(str)
@@ -127,8 +120,105 @@ def input(f)
   end
 end
 
+def details(n,s)
+  [find_goal(n),"",find_goal(s)]
+end
+
+def next_one(n,s)
+  words = ["then","and","after that","next"]
+  item = words[rand(words.length)]
+  [find_goal(n),item,find_goal(s)]
+end
+
+def cause(n,s)
+  words = ["so","therefore"]
+  item = words[rand(words.length)]
+  [find_goal(n),item,find_goal(s)]
+end
+
+def oppose(n,s)
+  words = ["but","however"]
+  item = words[rand(words.length)]
+  [find_goal(n),item,find_goal(s)]
+end
+
+
+def find_goal(arg)
+  if arg.oppose != nil and arg.visit?("oppose") == false
+    arg.visit("oppose")
+    "oppose"
+  elsif arg.details != nil and arg.visit?("details") == false
+    arg.visit("details")
+    "details"
+  elsif arg.cause != nil and arg.visit?("cause") == false
+    arg.visit("cause")
+    "cause"
+  elsif arg.next_one != nil and arg.visit?("next_one") == false
+    arg.visit("next_one")
+    "next_one"
+  else 
+    "realize"
+  end
+end
+
+def print_tree(level, node, file)
+  level.downto(1) { file.print "\t" }
+  file.puts node
+end
+
+def plan(arg,start,process,tree)
+  goal = eval "find_goal(arg.#{start})"
+  stack = []
+  n = eval "arg.#{start}"
+  s = nil
+  s = eval "arg.#{eval "n.#{goal}"}" if goal != "realize"
+  label = eval "n.#{goal}"
+  stack.push [goal, n, s, 0, start, label]
+  until stack.empty?
+    k = stack.pop
+    level = k[3]
+    goal = k[0]
+    n = k[1]
+    s = k[2]
+    nl = k[4]
+    sl = k[5]
+    if nl != nil
+      node = goal + " " + nl
+      print_tree(level, node, tree)
+    end
+    process.puts "Expanding #{goal} #{nl}"
+    if goal == "realize"
+      process.puts "Result: realize a sentence"
+      sen = realize(n)
+      process.puts sen.join " "
+      print sen.join " "
+      print ". "
+    elsif ["next_one", "cause", "details", "oppose"].include? goal
+      goals = eval "#{goal}(n,s)"
+      n2 = s
+      s2 = nil
+      s2 = eval "arg.#{eval "n2.#{goals[2]}"}" if goals[2] != "realize"
+      s2l = eval "n2.#{goals[2]}"
+      stack.push [goals[2], n2, s2, level+1, sl, s2l]
+      stack.push [goals[1], nil, nil, level+1, nil, nil]
+      n1 = n
+      s1 = nil
+      s1 = eval "arg.#{eval "n1.#{goals[0]}"}" if goals[0] != "realize"
+      s1l = eval "n1.#{goals[0]}"
+      p = [goals[0], n1, s1, level+1, nl, s1l]
+      stack.push p 
+      process.puts "Result: #{goals[0]} #{nl} #{goals[1]} #{goals[2]} #{sl}"
+    else
+      print goal
+      print " " if goal != ""
+    end
+  end
+end
+
 puts ARGV[0]
 a = input(ARGV[0])
-sen = realize(a)
-puts "Final result:"
-sen.each { |e| puts e.join " " }
+process = File.new(ARGV[1],"w")
+tree = File.new(ARGV[2],"w")
+sen = plan(a,ARGV[3],process,tree)
+puts
+# puts sen

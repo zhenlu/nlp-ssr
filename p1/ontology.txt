@@ -1,17 +1,61 @@
 TOP
 	OBJECT
 		PHYSICAL-OBJECT
+			man
+			freezer
+			potato
+			french-fry
+			In-n-out
+			store
 		NONPHYSICAL-OBJECT
+			fresh
+			idea
+			love
+			thought
 	EVENT
+		know
+		complement
+		deliver
+		think
 	QUALITY
 	STATE
-	STATE-CHANGE
+		good
+		tasty
+		nice
+		green		
 	SPEECHACT
+		ASSERTION
+		QUESTION
 	TIME
 		current
 		past
 		future
 	FORM
 		singular
-		plural 
+		plural
+	POLARITY
+		POS
+		NEG
+	IDENTIFIABLE
+		true
+		false
 	RELATION
+		EVENTROLE
+			agent
+			patient
+			adv
+			time
+			polarity
+		OBJECTRELATION
+			form
+			identifiable
+		QUALITYRELATION
+			amount
+		STATERELATION
+			color
+			size
+			shape
+		STATE-CHANGE
+			old-value
+			new-value
+			

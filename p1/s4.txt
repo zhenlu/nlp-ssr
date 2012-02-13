@@ -1,0 +1,14 @@
+type1:use;
+agent:(
+ 	type1:we;
+	form:plural;
+);	
+patient:(type1:potato;
+		form:plural;
+		size:big;
+		state:fresh;
+		identifiable:false;
+		 );
+time:current;
+speechact:ASSERTION;
+polarity:POS;

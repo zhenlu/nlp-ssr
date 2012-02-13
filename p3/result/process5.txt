@@ -1,0 +1,591 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s5.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("deliver","current","plural")
+AUX("deliver","POS","current")
+Expanding AUX("deliver","POS","current")
+Grammar Result:
+NP(@arg)
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Generating sentence: we deliver them
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: give
+Expanding give
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Generating sentence: we give them
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("to")
+Expanding P("to")
+result: to
+Expanding to
+Expanding NP(@arg)
+Grammar Result:
+PN("store","plural")
+Expanding PN("store","plural")
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we deliver them to the stores
+Validate sentance....
+owner is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","we","plural")
+Expanding DET("true","we","plural")
+result: our
+Expanding our
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we deliver them to our stores
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we deliver them to stores
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: give
+Expanding give
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("to")
+Expanding P("to")
+result: to
+Expanding to
+Expanding NP(@arg)
+Grammar Result:
+PN("store","plural")
+Expanding PN("store","plural")
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we give them to the stores
+Validate sentance....
+owner is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","we","plural")
+Expanding DET("true","we","plural")
+result: our
+Expanding our
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we give them to our stores
+Validate sentance....
+adv is not mentioned, failed.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we give them to stores
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+ADV("fresh")
+NP(@arg)
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("fresh")
+result: fresh
+Expanding fresh
+Generating sentence: we deliver them fresh
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: give
+Expanding give
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("fresh")
+result: fresh
+Expanding fresh
+Generating sentence: we give them fresh
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+PPLIST(@arg)
+ADV("fresh")
+NP(@arg)
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("fresh")
+result: fresh
+Expanding fresh
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("to")
+Expanding P("to")
+result: to
+Expanding to
+Expanding NP(@arg)
+Grammar Result:
+PN("store","plural")
+Expanding PN("store","plural")
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we deliver them fresh to the stores
+Validate sentance....
+owner is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","we","plural")
+Expanding DET("true","we","plural")
+result: our
+Expanding our
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we deliver them fresh to our stores
+Validate sentance....
+Validate success.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we deliver them fresh to stores
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+result: give
+Expanding give
+Expanding NP(@arg)
+Grammar Result:
+PN("them","plural")
+Expanding PN("them","plural")
+result: them
+Expanding them
+Expanding ADV("fresh")
+result: fresh
+Expanding fresh
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("to")
+Expanding P("to")
+result: to
+Expanding to
+Expanding NP(@arg)
+Grammar Result:
+PN("store","plural")
+Expanding PN("store","plural")
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","plural")
+Expanding DET("true","plural")
+result: the
+Expanding the
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we give them fresh to the stores
+Validate sentance....
+owner is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+DET("true","we","plural")
+Expanding DET("true","we","plural")
+result: our
+Expanding our
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we give them fresh to our stores
+Validate sentance....
+Validate success.
+Grammar Result:
+N("store","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("store","plural")
+result: stores
+Expanding stores
+Generating sentence: we give them fresh to stores
+Validate sentance....
+identifiable is not mentioned, failed.
+destination is not mentioned, failed.
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("them","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("them","plural")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding C("")
+result: give
+Expanding give
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding C("")
+result: give
+Expanding give
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("them","")
+Expanding ADJ("them","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: give
+Expanding give
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("them","")
+Expanding ADJ("them","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("fresh")
+V("deliver","current","plural")
+Expanding V("deliver","current","plural")
+result: deliver
+Expanding deliver
+Expanding ADV("fresh")
+result: fresh
+Expanding fresh
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("them","")
+Expanding ADJ("them","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+result: give
+Expanding give
+Expanding ADV("fresh")
+result: fresh
+Expanding fresh
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("them","")
+Expanding ADJ("them","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we deliver them fresh to our stores
+we give them fresh to our stores

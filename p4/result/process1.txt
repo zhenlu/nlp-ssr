@@ -1,0 +1,33 @@
+Expanding oppose E4
+Result: cause E4 however realize E9
+Expanding cause E4
+Result: realize E4 so next_one E5
+Expanding realize E4
+Result: realize a sentence
+we use fresh big potatoes
+Expanding so 
+Expanding next_one E5
+Result: realize E5 next next_one E6
+Expanding realize E5
+Result: realize a sentence
+we deliver them fresh to our stores
+Expanding next 
+Expanding next_one E6
+Result: realize E6 after that next_one E7
+Expanding realize E6
+Result: realize a sentence
+we take new whole potatoes every day
+Expanding after that 
+Expanding next_one E7
+Result: realize E7 then realize E8
+Expanding realize E7
+Result: realize a sentence
+we prepare the potatoes individually
+Expanding then 
+Expanding realize E8
+Result: realize a sentence
+we cook them in tran-fat-free vegetable oil
+Expanding however 
+Expanding realize E9
+Result: realize a sentence
+we do not use a freezer

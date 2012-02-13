@@ -1,0 +1,1031 @@
+(in /Users/nerwa/git/nlp-ssr/p3)
+data/s1.txt
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("we","plural")
+Expanding PN("we","plural")
+result: we
+Expanding we
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("know","current","plural")
+AUX("know","POS","current")
+Expanding AUX("know","POS","current")
+Grammar Result:
+NP(@arg)
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding NP(@arg)
+Grammar Result:
+PN("complement","")
+Expanding PN("complement","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("complement","")
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding NP(@arg)
+Grammar Result:
+PN("complement","")
+Expanding PN("complement","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("complement","")
+Grammar Result:
+ADV("")
+NP(@arg)
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding NP(@arg)
+Grammar Result:
+PN("complement","")
+Expanding PN("complement","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("complement","")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding NP(@arg)
+Grammar Result:
+PN("complement","")
+Expanding PN("complement","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","")
+Expanding DET("","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+DET("","","")
+Expanding DET("","","")
+Grammar Result:
+N("complement","")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("complement","")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("ASSERTION")
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding C("ASSERTION")
+result: that
+Expanding that
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("nothing","singular")
+Expanding PN("nothing","singular")
+result: nothing
+Expanding nothing
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("complement","current","singular")
+AUX("complement","POS","current")
+Expanding AUX("complement","POS","current")
+Grammar Result:
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("at")
+Expanding P("at")
+result: at
+Expanding at
+Expanding NP(@arg)
+Grammar Result:
+PN("In-N-Out","none")
+Expanding PN("In-N-Out","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("In-N-Out","none")
+result: In-N-Out
+Expanding In-N-Out
+Generating sentence: we know that nothing complements a hamburger at In-N-Out
+Validate sentance....
+type1 is not mentioned, failed.
+like is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("at")
+Expanding P("at")
+result: at
+Expanding at
+Expanding NP(@arg)
+Grammar Result:
+PN("In-N-Out","none")
+Expanding PN("In-N-Out","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("In-N-Out","none")
+result: In-N-Out
+Expanding In-N-Out
+Generating sentence: we know that nothing complements hamburger at In-N-Out
+Validate sentance....
+type1 is not mentioned, failed.
+like is not mentioned, failed.
+patient is not mentioned, failed.
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("like")
+Expanding P("like")
+result: like
+Expanding like
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("taste","good")
+ADJ("hot")
+Expanding ADJ("hot")
+result: hot
+Expanding hot
+Expanding ADJ("taste","good")
+result: tasty
+Expanding tasty
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("at")
+Expanding P("at")
+result: at
+Expanding at
+Expanding NP(@arg)
+Grammar Result:
+PN("In-N-Out","none")
+Expanding PN("In-N-Out","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("In-N-Out","none")
+result: In-N-Out
+Expanding In-N-Out
+Generating sentence: we know that nothing complements a hamburger like hot tasty french-fries at In-N-Out
+Validate sentance....
+Validate success.
+result: delicious
+Expanding delicious
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("at")
+Expanding P("at")
+result: at
+Expanding at
+Expanding NP(@arg)
+Grammar Result:
+PN("In-N-Out","none")
+Expanding PN("In-N-Out","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("In-N-Out","none")
+result: In-N-Out
+Expanding In-N-Out
+Generating sentence: we know that nothing complements a hamburger like hot delicious french-fries at In-N-Out
+Validate sentance....
+Validate success.
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("like")
+Expanding P("like")
+result: like
+Expanding like
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("taste","good")
+ADJ("hot")
+Expanding ADJ("hot")
+result: hot
+Expanding hot
+Expanding ADJ("taste","good")
+result: tasty
+Expanding tasty
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("at")
+Expanding P("at")
+result: at
+Expanding at
+Expanding NP(@arg)
+Grammar Result:
+PN("In-N-Out","none")
+Expanding PN("In-N-Out","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("In-N-Out","none")
+result: In-N-Out
+Expanding In-N-Out
+Generating sentence: we know that nothing complements hamburger like hot tasty french-fries at In-N-Out
+Validate sentance....
+Validate success.
+result: delicious
+Expanding delicious
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("at")
+Expanding P("at")
+result: at
+Expanding at
+Expanding NP(@arg)
+Grammar Result:
+PN("In-N-Out","none")
+Expanding PN("In-N-Out","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","none")
+Expanding DET("","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+DET("","","none")
+Expanding DET("","","none")
+Grammar Result:
+N("In-N-Out","none")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("In-N-Out","none")
+result: In-N-Out
+Expanding In-N-Out
+Generating sentence: we know that nothing complements hamburger like hot delicious french-fries at In-N-Out
+Validate sentance....
+Validate success.
+Grammar Result:
+ADV("")
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("hamburger","")
+Expanding ADJ("hamburger","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding ADV("")
+Grammar Result:
+N("nothing","singular")
+ADJLIST(@arg)
+DET("","singular")
+Expanding DET("","singular")
+Grammar Result:
+N("nothing","singular")
+ADJLIST(@arg)
+DET("","","singular")
+Expanding DET("","","singular")
+Grammar Result:
+N("nothing","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("nothing","singular")
+Grammar Result:
+S(@arg)
+C("ASSERTION")
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding C("ASSERTION")
+result: that
+Expanding that
+Expanding S(@arg)
+Grammar Result:
+VP(@arg)
+NP(@arg)
+Expanding NP(@arg)
+Grammar Result:
+PN("nothing","singular")
+Expanding PN("nothing","singular")
+result: nothing
+Expanding nothing
+Expanding VP(@arg)
+Grammar Result:
+NP(@arg)
+V("complement","current","singular")
+AUX("complement","POS","current")
+Expanding AUX("complement","POS","current")
+Grammar Result:
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Generating sentence: we know that nothing complements a hamburger
+Validate sentance....
+type1 is not mentioned, failed.
+location is not mentioned, failed.
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Generating sentence: we know that nothing complements hamburger
+Validate sentance....
+type1 is not mentioned, failed.
+location is not mentioned, failed.
+Grammar Result:
+PPLIST(@arg)
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("like")
+Expanding P("like")
+result: like
+Expanding like
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("taste","good")
+ADJ("hot")
+Expanding ADJ("hot")
+result: hot
+Expanding hot
+Expanding ADJ("taste","good")
+result: tasty
+Expanding tasty
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we know that nothing complements a hamburger like hot tasty french-fries
+Validate sentance....
+type1 is not mentioned, failed.
+location is not mentioned, failed.
+result: delicious
+Expanding delicious
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we know that nothing complements a hamburger like hot delicious french-fries
+Validate sentance....
+type1 is not mentioned, failed.
+location is not mentioned, failed.
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding PPLIST(@arg)
+Grammar Result:
+NP(@arg)
+P("like")
+Expanding P("like")
+result: like
+Expanding like
+Expanding NP(@arg)
+Grammar Result:
+PN("french-fry","plural")
+Expanding PN("french-fry","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","plural")
+Expanding DET("false","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+DET("false","","plural")
+Expanding DET("false","","plural")
+Grammar Result:
+N("french-fry","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+ADJ("taste","good")
+ADJ("hot")
+Expanding ADJ("hot")
+result: hot
+Expanding hot
+Expanding ADJ("taste","good")
+result: tasty
+Expanding tasty
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we know that nothing complements hamburger like hot tasty french-fries
+Validate sentance....
+type1 is not mentioned, failed.
+location is not mentioned, failed.
+result: delicious
+Expanding delicious
+Expanding N("french-fry","plural")
+result: french-fries
+Expanding french-fries
+Generating sentence: we know that nothing complements hamburger like hot delicious french-fries
+Validate sentance....
+type1 is not mentioned, failed.
+location is not mentioned, failed.
+Grammar Result:
+ADV("")
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+ADV("")
+NP(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding NP(@arg)
+Grammar Result:
+PN("hamburger","singular")
+Expanding PN("hamburger","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","singular")
+Expanding DET("false","singular")
+result: a
+Expanding a
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+DET("false","","singular")
+Expanding DET("false","","singular")
+Grammar Result:
+N("hamburger","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("hamburger","singular")
+result: hamburger
+Expanding hamburger
+Expanding ADV("")
+Grammar Result:
+PPLIST(@arg)
+S(@arg)
+C("")
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding C("")
+Grammar Result:
+S(@arg)
+C("")
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding C("")
+Grammar Result:
+STATE(@arg)
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("hamburger","")
+Expanding ADJ("hamburger","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("complement","current","singular")
+Expanding V("complement","current","singular")
+result: complements
+Expanding complements
+Expanding ADV("")
+Grammar Result:
+N("nothing","singular")
+ADJLIST(@arg)
+DET("","singular")
+Expanding DET("","singular")
+Grammar Result:
+N("nothing","singular")
+ADJLIST(@arg)
+DET("","","singular")
+Expanding DET("","","singular")
+Grammar Result:
+N("nothing","singular")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("nothing","singular")
+Grammar Result:
+STATE(@arg)
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding STATE(@arg)
+Grammar Result:
+ADJ("complement","")
+Expanding ADJ("complement","")
+Grammar Result:
+NP(@arg)
+P("as")
+ADJ("")
+P("as")
+Expanding P("as")
+result: as
+Expanding as
+Expanding ADJ("")
+Grammar Result:
+STATE(@arg)
+ADV("")
+V("know","current","plural")
+Expanding V("know","current","plural")
+result: know
+Expanding know
+Expanding ADV("")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","plural")
+Expanding DET("","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+DET("","","plural")
+Expanding DET("","","plural")
+Grammar Result:
+N("we","plural")
+ADJLIST(@arg)
+Expanding ADJLIST(@arg)
+Grammar Result:
+Expanding N("we","plural")
+Final result:
+we know that nothing complements a hamburger like hot tasty french-fries at In-N-Out
+we know that nothing complements a hamburger like hot delicious french-fries at In-N-Out
+we know that nothing complements hamburger like hot tasty french-fries at In-N-Out
+we know that nothing complements hamburger like hot delicious french-fries at In-N-Out
